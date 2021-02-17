@@ -2,7 +2,7 @@ for Number in range (1, 101):
   
     for i in range(2, (Number//2 + 1)):
         if(Number % i == 0):
-           n=random.randint(2,100)
+           n=random.randint(1,101)
            
 
     if (count == 0 and Number != 1):
